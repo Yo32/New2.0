@@ -1,0 +1,94 @@
+#tbg {
+  height: 22%;
+  width: 100%;
+  background-color: darkred;
+  box-shadow: 1px 1px 10px black;
+}
+#tp {
+  height: 250px;
+  width: 500px;
+  position: absolute;
+  visibility: visible;
+  left: 36%;
+  top: 120px;
+  z-index: 0;
+
+  display: inline-block;
+}
+#pic {
+  height: 250px;
+  width: 250px;
+  box-shadow: 1px 1px 10px black;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#np {
+  float: right;
+  background-color: white;
+  box-shadow: 1px 1px 10px black;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 250px;
+  width: 249px;
+  text-align: center;
+}
+#sd1 {
+  position: absolute;
+  visibility: visible;
+  left: 34%;
+  top: 375px;
+
+  background-color: white;
+  padding: 10px;
+
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+
+  width: 550px;
+}
+#sd2 {
+  position: absolute;
+  visibility: visible;
+  left: 34%;
+  top: 375px;
+
+  background-color: white;
+  padding: 10px;
+
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+
+  width: 550px;
+}
+#tmb {
+  text-align: center;
+  color: #fff;
+}
+#tmb li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+#tmb a {
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+  color: #ffffff;
+  display: inline-block;
+  margin: 2px 0px 2px 0px;
+  border-radius: 4px;
+}
+#tmb a :visited {
+  color: #ffffff;
+}
+#tmb a:hover {
+  background: #ffffff;
+  color: darkred;
+}
+#btn {
+  position: absolute;
+  visibility: visible;
+  left: 45%;
+  top: 400px;
+}
